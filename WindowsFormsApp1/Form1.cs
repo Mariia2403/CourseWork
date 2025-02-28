@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -17,7 +11,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
 
             dataGridView1.RowPostPaint += dataGridView1_RowPostPaint;
-           // button1.Click += button1_Click; //що це означає?
+            // button1.Click += button1_Click; //що це означає?
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -25,11 +19,11 @@ namespace WindowsFormsApp1
             OrderForm orderForm = new OrderForm();
 
             if (orderForm.ShowDialog() == DialogResult.OK)//Що це означає
-            { 
-             Transport transport = orderForm.SelectedTransport;
+            {
+                Transport transport = orderForm.SelectedTransport;
 
                 dataGridView1.Rows.Add(transport.GetTransportType(),
-                   
+
                 transport.CalculateTransportationCost());
 
 
@@ -60,7 +54,21 @@ namespace WindowsFormsApp1
 
         private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
+            int rowIndex = e.RowIndex;
 
+            if (rowIndex >= 0 && rowIndex < dataGridView1.Rows.Count) //що означає
+            {
+                string transport = dataGridView1.Rows[rowIndex].Cells["Transport"].Value.ToString();
+
+                string weight = dataGridView1.Rows[rowIndex].Cells["Weight"].Value.ToString();
+
+                MessageBox.Show($"Детальна інформація про замовлення:\n" +
+                               $"Транспорт: {transport}\n" +
+                               $"Вага вантажу: {weight} кг",
+                               "Деталі замовлення",
+                               MessageBoxButtons.OK,
+                               MessageBoxIcon.Information);
+            }
         }
     }
 }

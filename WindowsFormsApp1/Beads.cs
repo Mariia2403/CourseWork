@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    internal class Track : Transport
+    internal class Beads : Transport
     {
         
-
         public override double CalculateTransportationCost()
         {
-            double cost = 50;
+            double cost = 15;
             return weight * cost;
         }
 
         public override string GetTransportType()
         {
-            return "Фура";
+            return "Бус";
         }
     }
 }

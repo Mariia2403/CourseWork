@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\transport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:transport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\beads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:beads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\gazell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\gazell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:gazell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\transport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:transport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|d:\\visual studio (2)\\2 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\\\u043C\u0456\u043D\u0456\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1503B69E-B8CD-4101-9CBE-DF8F756775A1}|WindowsFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,30 +42,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "OrderForm.cs",
               "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\OrderForm.cs",
               "RelativeDocumentMoniker": "OrderForm.cs",
               "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\OrderForm.cs",
               "RelativeToolTip": "OrderForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T14:03:00.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "OrderForm.cs [Design]",
+              "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\OrderForm.cs",
+              "RelativeDocumentMoniker": "OrderForm.cs",
+              "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\OrderForm.cs [Design]",
+              "RelativeToolTip": "OrderForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:19:14.111Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Beads.cs",
+              "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Beads.cs",
+              "RelativeDocumentMoniker": "Beads.cs",
+              "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Beads.cs",
+              "RelativeToolTip": "Beads.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T20:07:34.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Track.cs",
               "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Track.cs",
               "RelativeDocumentMoniker": "Track.cs",
               "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Track.cs",
               "RelativeToolTip": "Track.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswBkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T13:47:47.671Z",
               "EditorCaption": ""
@@ -74,57 +103,45 @@
               "RelativeDocumentMoniker": "Gazell.cs",
               "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Gazell.cs",
               "RelativeToolTip": "Gazell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T13:36:24.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Transport.cs",
               "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Transport.cs",
               "RelativeDocumentMoniker": "Transport.cs",
               "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Transport.cs",
               "RelativeToolTip": "Transport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T13:32:34.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDcAAABFAAAAAAAAAA==",
+              "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T13:19:29.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderForm.cs [Design]",
-              "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\OrderForm.cs",
-              "RelativeDocumentMoniker": "OrderForm.cs",
-              "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\OrderForm.cs [Design]",
-              "RelativeToolTip": "OrderForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T13:19:14.111Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "D:\\Visual Studio (2)\\2 \u043A\u0443\u0440\u0441\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\\\u041C\u0406\u043D\u0456\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T13:08:39.34Z",
               "EditorCaption": " [Design]"
