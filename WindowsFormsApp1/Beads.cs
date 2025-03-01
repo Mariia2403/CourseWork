@@ -8,11 +8,13 @@ namespace WindowsFormsApp1
 {
     internal class Beads : Transport
     {
-        
+        public override double MaxWeight => 3000;
+        public override double MaxVolume => 20;
+
         public override double CalculateTransportationCost()
         {
             double cost = 15;
-            return weight * cost;
+            return Weight * cost * GetConditionCostFactor();
         }
 
         public override string GetTransportType()

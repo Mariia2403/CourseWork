@@ -8,12 +8,14 @@ namespace WindowsFormsApp1
 {
     internal class Track : Transport
     {
-        
+        public override double MaxWeight => 5000;
+
+        public override double MaxVolume => 40;
 
         public override double CalculateTransportationCost()
         {
             double cost = 50;
-            return weight * cost;
+            return Weight * cost * GetConditionCostFactor();
         }
 
         public override string GetTransportType()

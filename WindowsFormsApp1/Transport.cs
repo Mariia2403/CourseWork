@@ -1,23 +1,62 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
     public abstract class Transport
     {
-
+        public abstract double MaxWeight { get; }
+        public abstract double MaxVolume { get; }
         protected double weight { get; set; }
         protected double volume { get; set; }
         public string SpecialCondition { get; set; } = "No necessary";
+
+        public bool ex = false;
         public virtual double Weight
         {
             get => weight;
-            set => weight = (value < 0) ? throw new ArgumentException("The weight cannot be less than zero.") : value;
+            set
+            {
+                if (value < 0)
+                {
+                    
+                    throw new ArgumentException("The value cannot be less than zero.");
+
+                }
+                if (value > MaxWeight)
+                {
+                    ex = true;
+                    MessageBox.Show($"The weight cannot exceed the maximum limit of {MaxWeight} kg.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                    //  throw new ArgumentException($"The weight cannot exceed the maximum limit of {MaxWeight} kg.");
+
+                }
+
+                weight = value;
+
+            }
         }
 
         public virtual double Volume
         {
             get => volume;
-            set => volume = (value < 0) ? throw new ArgumentException("The weight cannot be less than zero.") : value;
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("The value cannot be less than zero.");
+
+                }
+                if (value > MaxVolume)
+                {
+                    ex = true;
+                    MessageBox.Show($"The volume cannot exceed the maximum limit of {MaxVolume} m³.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                    // throw new ArgumentException($"The volume cannot exceed the maximum limit of {MaxVolume} m³.");
+
+                }
+                volume = value;
+            }
         }
 
         public virtual double GetConditionCostFactor()
