@@ -7,59 +7,17 @@ namespace WindowsFormsApp1
     {
         public abstract double MaxWeight { get; }
         public abstract double MaxVolume { get; }
-        protected double weight { get; set; }
-        protected double volume { get; set; }
+        
         public string SpecialCondition { get; set; } = "No necessary";
 
-        public bool ex = false;
-        public virtual double Weight
+        public Cargo Cargo { get; set; }
+
+        public Transport(string cargoType, double weight, double volume, string condition)
         {
-            get => weight;
-            set
-            {
-                if (value < 0)
-                {
-                    
-                    throw new ArgumentException("The value cannot be less than zero.");
-
-                }
-                if (value > MaxWeight)
-                {
-                    ex = true;
-                    MessageBox.Show($"The weight cannot exceed the maximum limit of {MaxWeight} kg.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                    //  throw new ArgumentException($"The weight cannot exceed the maximum limit of {MaxWeight} kg.");
-
-                }
-
-                weight = value;
-
-            }
+            Cargo = new Cargo(cargoType, weight, volume, condition, MaxWeight, MaxVolume);
         }
 
-        public virtual double Volume
-        {
-            get => volume;
-            set
-            {
-                if (value < 0)
-                {
-                    throw new ArgumentException("The value cannot be less than zero.");
-
-                }
-                if (value > MaxVolume)
-                {
-                    ex = true;
-                    MessageBox.Show($"The volume cannot exceed the maximum limit of {MaxVolume} m³.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                    // throw new ArgumentException($"The volume cannot exceed the maximum limit of {MaxVolume} m³.");
-
-                }
-                volume = value;
-            }
-        }
-
-        public virtual double GetConditionCostFactor()
+        public  double GetConditionCostFactor()
         {
             double factor;
             switch (SpecialCondition)

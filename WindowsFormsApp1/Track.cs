@@ -12,15 +12,19 @@ namespace WindowsFormsApp1
 
         public override double MaxVolume => 40;
 
+        public Track(string cargoType, double weight, double volume, string condition) : base(cargoType, weight, volume, condition)
+        {
+
+        }
         public override double CalculateTransportationCost()
         {
             double cost = 50;
-            return Weight * cost * GetConditionCostFactor();
+            return Cargo.Weight * cost * GetConditionCostFactor();
         }
 
         public override string GetTransportType()
         {
-            return "Фура";
+            return "Track";
         }
     }
 }

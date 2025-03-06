@@ -6,11 +6,12 @@ namespace WindowsFormsApp1
     public partial class OrderForm : Form
     {
         public Transport SelectedTransport { get; private set; }//чому тут приватний set та що таке internal 
+        public Cargo Cargo { get; private set; }
         public OrderForm()
         {
             InitializeComponent();
 
-            cmbTransport.SelectedIndex = 0;
+           // cmbTransport.SelectedIndex = 0;
             btnSave.Click -= btnSave_Click;
             btnSave.Click += btnSave_Click;
         }
@@ -23,33 +24,40 @@ namespace WindowsFormsApp1
             {
                 string transportType = cmbTransport.SelectedItem.ToString();//яке значення тут отримується?
                 string conditionType = cmbSpecialCond.SelectedItem.ToString();
+                double volume;
+                double weight;
 
 
-
-                if ((!double.TryParse(textVolume.Text, out double volume) || volume <= 0))
+                if ((!double.TryParse(textVolume.Text, out  volume)))
                 {
                     MessageBox.Show("Enter the correct volume.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                if (!double.TryParse(txtWeight.Text, out double weight) || weight <= 0)//чи потрібно тут перевіряти чи менше за нуль,
+                if (!double.TryParse(txtWeight.Text, out  weight))//чи потрібно тут перевіряти чи менше за нуль,
                                                                                        //якщов мене вже записано у властивостях
                 {
                     MessageBox.Show("Enter the correct weight of the cargo.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
+                try
+                {
                 //поліморфізм
                 switch (transportType)
                 {
                     case "Gazell":
-                        SelectedTransport = new Gazell();
+                        SelectedTransport = new Gazell(transportType, weight, volume, conditionType);
+                       // Cargo = new Cargo();
+
                         break;
 
                     case "Track":
-                        SelectedTransport = new Track();
+                        SelectedTransport = new Track(transportType, weight, volume, conditionType);
+                      //  Cargo = new Cargo();
                         break;
                     case "Beads":
-                        SelectedTransport = new Beads();
+                        SelectedTransport = new Beads(transportType, weight, volume, conditionType);
+                       // Cargo = new Cargo();
                         break;
 
                     default:
@@ -58,14 +66,10 @@ namespace WindowsFormsApp1
                 }
 
 
-
-                try
-                {
-
-                    SelectedTransport.Weight = weight;
-                    SelectedTransport.Volume = volume;
-                    SelectedTransport.SpecialCondition = conditionType;
-                    if (!SelectedTransport.ex)
+                   // SelectedTransport.Cargo.Weight = weight;
+                   // SelectedTransport.Cargo.Volume = volume;
+                   // SelectedTransport.Cargo.SpecialCondition = conditionType;
+                    if (!SelectedTransport.Cargo.ex)
                     {
                         isValidInput = true;
                         break;

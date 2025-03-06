@@ -49,7 +49,8 @@
             this.cmbTransport.FormattingEnabled = true;
             this.cmbTransport.Items.AddRange(new object[] {
             "Gazell",
-            "Track"});
+            "Track",
+            "Beads"});
             this.cmbTransport.Location = new System.Drawing.Point(74, 44);
             this.cmbTransport.Name = "cmbTransport";
             this.cmbTransport.Size = new System.Drawing.Size(121, 24);
@@ -64,7 +65,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(468, 157);
+            this.btnSave.Location = new System.Drawing.Point(653, 161);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 2;
